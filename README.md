@@ -20,7 +20,6 @@ A smart, interactive insurance assistant that helps users explore and understand
 - Streamlit
 - Hugging Face LLM (e.g., Mistral or any compatible model)
 - LangChain Core concepts (prompt templates, message placeholders)
-- Pydantic for tool validation
 
 ---
 In the real world, an insurance agent:

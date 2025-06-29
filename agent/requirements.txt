@@ -1,0 +1,9 @@
+langchain
+langchain-community
+huggingface_hub
+faiss-cpu
+tiktoken
+python-dotenv
+openai  # optional, for fallback
+transformers  # optional, for HuggingFace models
+langchain-huggingface  # optional, for HuggingFace integration

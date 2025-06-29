@@ -1,0 +1,4531 @@
+[
+  {
+    "id": "P094",
+    "name": "Health Plan P094",
+    "type": "health",
+    "company": "Aditya Birla",
+    "coverage": 1500000,
+    "premium": 17770,
+    "waiting_period": "1 month",
+    "exclusions": [
+      "Pre-existing disease for 2 years",
+      "War or terrorism injuries",
+      "Participation in hazardous sports",
+      "Mental illness treatments"
+    ],
+    "riders": [
+      "Cancer Protection Rider",
+      "Accidental Death Benefit"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      },
+      {
+        "clause": "Non-network hospital without prior approval",
+        "reason": "Cashless not available"
+      }
+    ],
+    "detailed_terms": "Aditya Birla's Health insurance plan provides tailored protection with a coverage of \u20b91,500,000 at an annual premium of \u20b917,770. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Cancer Protection Rider, Accidental Death Benefit enhance protection based on individual and family needs. Policy exclusions include Pre-existing disease for 2 years, War or terrorism injuries, Participation in hazardous sports, Mental illness treatments. Pre-existing diseases are covered after a waiting period of 1 month. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "obese": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.18
+        },
+        "asthma": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.66
+        },
+        "hypertension": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.63
+        },
+        "mental illness": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.29
+        },
+        "high cholesterol": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.99
+        },
+        "smoker": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.37
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": false,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 15993,
+      "26-35": 17770,
+      "36-45": 21324,
+      "46-60": 26655,
+      "60+": 35540
+    },
+    "decline_conditions": [
+      "cancer",
+      "late-stage kidney disease"
+    ],
+    "rider_costs": {
+      "Cancer Protection Rider": 576,
+      "Accidental Death Benefit": 1291
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P068",
+    "name": "Health Plan P068",
+    "type": "health",
+    "company": "Aditya Birla",
+    "coverage": 1500000,
+    "premium": 9621,
+    "waiting_period": "1 month",
+    "exclusions": [
+      "Self-inflicted injuries",
+      "Pre-existing disease for 2 years",
+      "Substance abuse-related conditions",
+      "Cosmetic surgery"
+    ],
+    "riders": [
+      "Hospital Cash Benefit",
+      "Cancer Protection Rider"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      },
+      {
+        "clause": "Claim made during waiting period",
+        "reason": "Policy waiting period not completed"
+      }
+    ],
+    "detailed_terms": "Aditya Birla's Health insurance plan provides tailored protection with a coverage of \u20b91,500,000 at an annual premium of \u20b99,621. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Hospital Cash Benefit, Cancer Protection Rider enhance protection based on individual and family needs. Policy exclusions include Self-inflicted injuries, Pre-existing disease for 2 years, Substance abuse-related conditions, Cosmetic surgery. Pre-existing diseases are covered after a waiting period of 1 month. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "cancer": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.68
+        },
+        "obese": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.15
+        },
+        "asthma": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.47
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 8659,
+      "26-35": 9621,
+      "36-45": 11545,
+      "46-60": 14432,
+      "60+": 19242
+    },
+    "decline_conditions": [
+      "late-stage kidney disease",
+      "cancer"
+    ],
+    "rider_costs": {
+      "Hospital Cash Benefit": 869,
+      "Cancer Protection Rider": 586
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P005",
+    "name": "Health Plan 5",
+    "type": "health",
+    "company": "LIC",
+    "coverage": 500000,
+    "premium": 7800,
+    "waiting_period": "3 months",
+    "exclusions": [
+      "Maternity within first 9 months",
+      "Cosmetic surgery",
+      "Dental treatment unless due to accident"
+    ],
+    "riders": [
+      "Personal Accident Cover",
+      "Accidental Death Benefit"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      },
+      {
+        "clause": "Non-network hospital without prior approval",
+        "reason": "Cashless not available"
+      }
+    ],
+    "detailed_terms": "LIC's Health insurance plan provides tailored protection with a coverage of \u20b9500,000 at an annual premium of \u20b97,800. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Personal Accident Cover, Accidental Death Benefit enhance protection based on individual and family needs. Policy exclusions include Maternity within first 9 months, Cosmetic surgery, Dental treatment unless due to accident. Pre-existing diseases are covered after a waiting period of 3 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "mental illness": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.16
+        },
+        "asthma": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.44
+        },
+        "hypertension": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.41
+        },
+        "obese": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.33
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 7020,
+      "26-35": 7800,
+      "36-45": 9360,
+      "46-60": 11700,
+      "60+": 15600
+    },
+    "decline_conditions": [
+      "HIV/AIDS"
+    ],
+    "rider_costs": {
+      "Personal Accident Cover": 1302,
+      "Accidental Death Benefit": 2122
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P180",
+    "name": "Health Plan P180",
+    "type": "health",
+    "company": "HDFC Life",
+    "coverage": 500000,
+    "premium": 13830,
+    "waiting_period": "3 months",
+    "exclusions": [
+      "Participation in hazardous sports",
+      "Dental treatment unless due to accident",
+      "Cosmetic surgery"
+    ],
+    "riders": [
+      "Accidental Death Benefit"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      },
+      {
+        "clause": "Non-network hospital without prior approval",
+        "reason": "Cashless not available"
+      }
+    ],
+    "detailed_terms": "HDFC Life's Health insurance plan provides tailored protection with a coverage of \u20b9500,000 at an annual premium of \u20b913,830. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Accidental Death Benefit enhance protection based on individual and family needs. Policy exclusions include Participation in hazardous sports, Dental treatment unless due to accident, Cosmetic surgery. Pre-existing diseases are covered after a waiting period of 3 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "mental illness": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.89
+        },
+        "asthma": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.67
+        },
+        "heart disease": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.27
+        },
+        "hypertension": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.91
+        },
+        "obese": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.02
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 12447,
+      "26-35": 13830,
+      "36-45": 16596,
+      "46-60": 20745,
+      "60+": 27660
+    },
+    "decline_conditions": [
+      "late-stage kidney disease",
+      "advanced heart failure"
+    ],
+    "rider_costs": {
+      "Accidental Death Benefit": 2922
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P014",
+    "name": "Health Plan 14",
+    "type": "health",
+    "company": "Religare",
+    "coverage": 300000,
+    "premium": 6300,
+    "waiting_period": "3 months",
+    "exclusions": [
+      "Cosmetic surgery",
+      "Pre-existing disease for 2 years",
+      "War or terrorism injuries"
+    ],
+    "riders": [
+      "Maternity Cover",
+      "Personal Accident Cover"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      },
+      {
+        "clause": "Hospitalization < 24 hours",
+        "reason": "Minimum hospitalization time not met"
+      }
+    ],
+    "detailed_terms": "Religare's Health insurance plan provides tailored protection with a coverage of \u20b9300,000 at an annual premium of \u20b96,300. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Maternity Cover, Personal Accident Cover enhance protection based on individual and family needs. Policy exclusions include Cosmetic surgery, Pre-existing disease for 2 years, War or terrorism injuries. Pre-existing diseases are covered after a waiting period of 3 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "smoker": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.46
+        },
+        "mental illness": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.15
+        },
+        "diabetes": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.27
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": false,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 5670,
+      "26-35": 6300,
+      "36-45": 7560,
+      "46-60": 9450,
+      "60+": 12600
+    },
+    "decline_conditions": [
+      "cancer",
+      "HIV/AIDS"
+    ],
+    "rider_costs": {
+      "Maternity Cover": 2787,
+      "Personal Accident Cover": 835
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P008",
+    "name": "Health Plan 8",
+    "type": "health",
+    "company": "Tata AIA",
+    "coverage": 500000,
+    "premium": 5200,
+    "waiting_period": "6 months",
+    "exclusions": [
+      "Pre-existing disease for 2 years",
+      "War or terrorism injuries",
+      "Dental treatment unless due to accident"
+    ],
+    "riders": [
+      "Personal Accident Cover",
+      "Critical Illness Cover"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Claim made during waiting period",
+        "reason": "Policy waiting period not completed"
+      },
+      {
+        "clause": "Hospitalization < 24 hours",
+        "reason": "Minimum hospitalization time not met"
+      }
+    ],
+    "detailed_terms": "Tata AIA's Health insurance plan provides tailored protection with a coverage of \u20b9500,000 at an annual premium of \u20b95,200. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Personal Accident Cover, Critical Illness Cover enhance protection based on individual and family needs. Policy exclusions include Pre-existing disease for 2 years, War or terrorism injuries, Dental treatment unless due to accident. Pre-existing diseases are covered after a waiting period of 6 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "high cholesterol": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.5
+        },
+        "obese": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.13
+        },
+        "diabetes": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.3
+        },
+        "hypertension": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.84
+        }
+      },
+      "max_risk_class": "Decline",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 4680,
+      "26-35": 5200,
+      "36-45": 6240,
+      "46-60": 7800,
+      "60+": 10400
+    },
+    "decline_conditions": [
+      "late-stage kidney disease"
+    ],
+    "rider_costs": {
+      "Personal Accident Cover": 2568,
+      "Critical Illness Cover": 1987
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P061",
+    "name": "Health Plan P061",
+    "type": "health",
+    "company": "Aditya Birla",
+    "coverage": 300000,
+    "premium": 7781,
+    "waiting_period": "3 months",
+    "exclusions": [
+      "Dental treatment unless due to accident",
+      "Pre-existing disease for 2 years",
+      "Mental illness treatments"
+    ],
+    "riders": [
+      "Personal Accident Cover"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      },
+      {
+        "clause": "Hospitalization < 24 hours",
+        "reason": "Minimum hospitalization time not met"
+      }
+    ],
+    "detailed_terms": "Aditya Birla's Health insurance plan provides tailored protection with a coverage of \u20b9300,000 at an annual premium of \u20b97,781. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Personal Accident Cover enhance protection based on individual and family needs. Policy exclusions include Dental treatment unless due to accident, Pre-existing disease for 2 years, Mental illness treatments. Pre-existing diseases are covered after a waiting period of 3 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "heart disease": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 2.17
+        },
+        "mental illness": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.08
+        },
+        "hypertension": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.4
+        },
+        "asthma": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.45
+        }
+      },
+      "max_risk_class": "Decline",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 7003,
+      "26-35": 7781,
+      "36-45": 9337,
+      "46-60": 11672,
+      "60+": 15562
+    },
+    "decline_conditions": [
+      "advanced heart failure"
+    ],
+    "rider_costs": {
+      "Personal Accident Cover": 2931
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P004",
+    "name": "Health Plan 4",
+    "type": "health",
+    "company": "LIC",
+    "coverage": 1500000,
+    "premium": 7800,
+    "waiting_period": "6 months",
+    "exclusions": [
+      "War or terrorism injuries",
+      "Participation in hazardous sports",
+      "Cosmetic surgery"
+    ],
+    "riders": [
+      "Critical Illness Cover",
+      "Hospital Cash Benefit"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      },
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      }
+    ],
+    "detailed_terms": "LIC's Health insurance plan provides tailored protection with a coverage of \u20b91,500,000 at an annual premium of \u20b97,800. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Critical Illness Cover, Hospital Cash Benefit enhance protection based on individual and family needs. Policy exclusions include War or terrorism injuries, Participation in hazardous sports, Cosmetic surgery. Pre-existing diseases are covered after a waiting period of 6 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "cancer": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.44
+        },
+        "high cholesterol": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 2.1
+        },
+        "hypertension": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.44
+        }
+      },
+      "max_risk_class": "Decline",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 7020,
+      "26-35": 7800,
+      "36-45": 9360,
+      "46-60": 11700,
+      "60+": 15600
+    },
+    "decline_conditions": [
+      "late-stage kidney disease",
+      "cancer"
+    ],
+    "rider_costs": {
+      "Critical Illness Cover": 1416,
+      "Hospital Cash Benefit": 1013
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P154",
+    "name": "Health Plan P154",
+    "type": "health",
+    "company": "HDFC Life",
+    "coverage": 1500000,
+    "premium": 16471,
+    "waiting_period": "6 months",
+    "exclusions": [
+      "Self-inflicted injuries",
+      "Dental treatment unless due to accident",
+      "Substance abuse-related conditions",
+      "Mental illness treatments"
+    ],
+    "riders": [
+      "Cancer Protection Rider"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Claim made during waiting period",
+        "reason": "Policy waiting period not completed"
+      },
+      {
+        "clause": "Non-network hospital without prior approval",
+        "reason": "Cashless not available"
+      }
+    ],
+    "detailed_terms": "HDFC Life's Health insurance plan provides tailored protection with a coverage of \u20b91,500,000 at an annual premium of \u20b916,471. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Cancer Protection Rider enhance protection based on individual and family needs. Policy exclusions include Self-inflicted injuries, Dental treatment unless due to accident, Substance abuse-related conditions, Mental illness treatments. Pre-existing diseases are covered after a waiting period of 6 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "cancer": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.06
+        },
+        "diabetes": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.8
+        },
+        "heart disease": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.0
+        },
+        "obese": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.33
+        },
+        "asthma": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.37
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": false,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 14824,
+      "26-35": 16471,
+      "36-45": 19765,
+      "46-60": 24706,
+      "60+": 32942
+    },
+    "decline_conditions": [
+      "HIV/AIDS",
+      "cancer"
+    ],
+    "rider_costs": {
+      "Cancer Protection Rider": 2885
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P015",
+    "name": "Health Plan 15",
+    "type": "health",
+    "company": "ICICI Prudential",
+    "coverage": 1000000,
+    "premium": 4000,
+    "waiting_period": "6 months",
+    "exclusions": [
+      "Cosmetic surgery",
+      "War or terrorism injuries",
+      "Pre-existing disease for 2 years"
+    ],
+    "riders": [
+      "Critical Illness Cover",
+      "Waiver of Premium"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      },
+      {
+        "clause": "Non-network hospital without prior approval",
+        "reason": "Cashless not available"
+      }
+    ],
+    "detailed_terms": "ICICI Prudential's Health insurance plan provides tailored protection with a coverage of \u20b91,000,000 at an annual premium of \u20b94,000. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Critical Illness Cover, Waiver of Premium enhance protection based on individual and family needs. Policy exclusions include Cosmetic surgery, War or terrorism injuries, Pre-existing disease for 2 years. Pre-existing diseases are covered after a waiting period of 6 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "smoker": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.26
+        },
+        "high cholesterol": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.43
+        },
+        "heart disease": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.3
+        },
+        "hypertension": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.02
+        },
+        "mental illness": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.16
+        },
+        "diabetes": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.03
+        }
+      },
+      "max_risk_class": "Decline",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": false,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 3600,
+      "26-35": 4000,
+      "36-45": 4800,
+      "46-60": 6000,
+      "60+": 8000
+    },
+    "decline_conditions": [
+      "late-stage kidney disease",
+      "advanced heart failure"
+    ],
+    "rider_costs": {
+      "Critical Illness Cover": 594,
+      "Waiver of Premium": 2756
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P011",
+    "name": "Health Plan 11",
+    "type": "health",
+    "company": "HDFC Life",
+    "coverage": 1000000,
+    "premium": 15000,
+    "waiting_period": "3 months",
+    "exclusions": [
+      "Participation in hazardous sports",
+      "Self-inflicted injuries",
+      "Maternity within first 9 months"
+    ],
+    "riders": [
+      "Personal Accident Cover",
+      "Hospital Cash Benefit"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Hospitalization < 24 hours",
+        "reason": "Minimum hospitalization time not met"
+      },
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      }
+    ],
+    "detailed_terms": "HDFC Life's Health insurance plan provides tailored protection with a coverage of \u20b91,000,000 at an annual premium of \u20b915,000. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Personal Accident Cover, Hospital Cash Benefit enhance protection based on individual and family needs. Policy exclusions include Participation in hazardous sports, Self-inflicted injuries, Maternity within first 9 months. Pre-existing diseases are covered after a waiting period of 3 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "cancer": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.84
+        },
+        "asthma": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.42
+        },
+        "diabetes": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.18
+        },
+        "heart disease": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 2.48
+        },
+        "smoker": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.47
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": false,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 13500,
+      "26-35": 15000,
+      "36-45": 18000,
+      "46-60": 22500,
+      "60+": 30000
+    },
+    "decline_conditions": [
+      "cancer"
+    ],
+    "rider_costs": {
+      "Personal Accident Cover": 2373,
+      "Hospital Cash Benefit": 2184
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P060",
+    "name": "Health Plan P060",
+    "type": "health",
+    "company": "HDFC Life",
+    "coverage": 1000000,
+    "premium": 14681,
+    "waiting_period": "1 month",
+    "exclusions": [
+      "Pre-existing disease for 2 years",
+      "Self-inflicted injuries",
+      "Substance abuse-related conditions",
+      "Dental treatment unless due to accident"
+    ],
+    "riders": [
+      "Accidental Death Benefit",
+      "Waiver of Premium"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Non-network hospital without prior approval",
+        "reason": "Cashless not available"
+      },
+      {
+        "clause": "Hospitalization < 24 hours",
+        "reason": "Minimum hospitalization time not met"
+      }
+    ],
+    "detailed_terms": "HDFC Life's Health insurance plan provides tailored protection with a coverage of \u20b91,000,000 at an annual premium of \u20b914,681. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Accidental Death Benefit, Waiver of Premium enhance protection based on individual and family needs. Policy exclusions include Pre-existing disease for 2 years, Self-inflicted injuries, Substance abuse-related conditions, Dental treatment unless due to accident. Pre-existing diseases are covered after a waiting period of 1 month. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "mental illness": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.09
+        },
+        "cancer": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.42
+        },
+        "obese": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.04
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 13213,
+      "26-35": 14681,
+      "36-45": 17617,
+      "46-60": 22022,
+      "60+": 29362
+    },
+    "decline_conditions": [
+      "late-stage kidney disease",
+      "advanced heart failure"
+    ],
+    "rider_costs": {
+      "Accidental Death Benefit": 1550,
+      "Waiver of Premium": 1161
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P012",
+    "name": "Health Plan 12",
+    "type": "health",
+    "company": "ICICI Prudential",
+    "coverage": 500000,
+    "premium": 6300,
+    "waiting_period": "6 months",
+    "exclusions": [
+      "Substance abuse-related conditions",
+      "Cosmetic surgery",
+      "Maternity within first 9 months"
+    ],
+    "riders": [
+      "Waiver of Premium",
+      "Cancer Protection Rider"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Non-network hospital without prior approval",
+        "reason": "Cashless not available"
+      },
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      }
+    ],
+    "detailed_terms": "ICICI Prudential's Health insurance plan provides tailored protection with a coverage of \u20b9500,000 at an annual premium of \u20b96,300. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Waiver of Premium, Cancer Protection Rider enhance protection based on individual and family needs. Policy exclusions include Substance abuse-related conditions, Cosmetic surgery, Maternity within first 9 months. Pre-existing diseases are covered after a waiting period of 6 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "heart disease": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.28
+        },
+        "mental illness": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 2.39
+        },
+        "obese": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.56
+        },
+        "high cholesterol": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.18
+        },
+        "asthma": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.37
+        },
+        "diabetes": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.41
+        }
+      },
+      "max_risk_class": "Decline",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 5670,
+      "26-35": 6300,
+      "36-45": 7560,
+      "46-60": 9450,
+      "60+": 12600
+    },
+    "decline_conditions": [
+      "cancer"
+    ],
+    "rider_costs": {
+      "Waiver of Premium": 2809,
+      "Cancer Protection Rider": 2764
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P006",
+    "name": "Health Plan 6",
+    "type": "health",
+    "company": "Tata AIA",
+    "coverage": 500000,
+    "premium": 4000,
+    "waiting_period": "3 months",
+    "exclusions": [
+      "Self-inflicted injuries",
+      "Maternity within first 9 months",
+      "Cosmetic surgery"
+    ],
+    "riders": [
+      "Personal Accident Cover",
+      "Waiver of Premium"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Hospitalization < 24 hours",
+        "reason": "Minimum hospitalization time not met"
+      },
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      }
+    ],
+    "detailed_terms": "Tata AIA's Health insurance plan provides tailored protection with a coverage of \u20b9500,000 at an annual premium of \u20b94,000. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Personal Accident Cover, Waiver of Premium enhance protection based on individual and family needs. Policy exclusions include Self-inflicted injuries, Maternity within first 9 months, Cosmetic surgery. Pre-existing diseases are covered after a waiting period of 3 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "diabetes": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.49
+        },
+        "cancer": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 2.43
+        },
+        "mental illness": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.82
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 3600,
+      "26-35": 4000,
+      "36-45": 4800,
+      "46-60": 6000,
+      "60+": 8000
+    },
+    "decline_conditions": [
+      "advanced heart failure"
+    ],
+    "rider_costs": {
+      "Personal Accident Cover": 602,
+      "Waiver of Premium": 1563
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P194",
+    "name": "Health Plan P194",
+    "type": "health",
+    "company": "HDFC Life",
+    "coverage": 500000,
+    "premium": 9483,
+    "waiting_period": "6 months",
+    "exclusions": [
+      "Mental illness treatments",
+      "Participation in hazardous sports",
+      "War or terrorism injuries"
+    ],
+    "riders": [
+      "Waiver of Premium",
+      "Personal Accident Cover",
+      "Hospital Cash Benefit"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Non-network hospital without prior approval",
+        "reason": "Cashless not available"
+      },
+      {
+        "clause": "Hospitalization < 24 hours",
+        "reason": "Minimum hospitalization time not met"
+      }
+    ],
+    "detailed_terms": "HDFC Life's Health insurance plan provides tailored protection with a coverage of \u20b9500,000 at an annual premium of \u20b99,483. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Waiver of Premium, Personal Accident Cover, Hospital Cash Benefit enhance protection based on individual and family needs. Policy exclusions include Mental illness treatments, Participation in hazardous sports, War or terrorism injuries. Pre-existing diseases are covered after a waiting period of 6 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "heart disease": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.26
+        },
+        "cancer": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.47
+        },
+        "mental illness": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.23
+        },
+        "asthma": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.54
+        },
+        "high cholesterol": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.49
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": false,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 8535,
+      "26-35": 9483,
+      "36-45": 11380,
+      "46-60": 14224,
+      "60+": 18966
+    },
+    "decline_conditions": [
+      "HIV/AIDS",
+      "late-stage kidney disease"
+    ],
+    "rider_costs": {
+      "Waiver of Premium": 1967,
+      "Personal Accident Cover": 793,
+      "Hospital Cash Benefit": 507
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P027",
+    "name": "Term Life Plan 12",
+    "type": "term_life",
+    "company": "LIC",
+    "coverage": 700000,
+    "premium": 11000,
+    "waiting_period": "6 months",
+    "exclusions": [
+      "War or terrorism injuries",
+      "Maternity within first 9 months",
+      "Dental treatment unless due to accident"
+    ],
+    "riders": [
+      "Maternity Cover",
+      "Accidental Death Benefit"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Claim made during waiting period",
+        "reason": "Policy waiting period not completed"
+      },
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      }
+    ],
+    "detailed_terms": "LIC's Term Life insurance plan provides tailored protection with a coverage of \u20b9700,000 at an annual premium of \u20b911,000. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Maternity Cover, Accidental Death Benefit enhance protection based on individual and family needs. Policy exclusions include War or terrorism injuries, Maternity within first 9 months, Dental treatment unless due to accident. Pre-existing diseases are covered after a waiting period of 6 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "heart disease": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.85
+        },
+        "hypertension": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.83
+        },
+        "cancer": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.53
+        }
+      },
+      "max_risk_class": "Decline",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 9900,
+      "26-35": 11000,
+      "36-45": 13200,
+      "46-60": 16500,
+      "60+": 22000
+    },
+    "decline_conditions": [
+      "advanced heart failure"
+    ],
+    "rider_costs": {
+      "Maternity Cover": 1926,
+      "Accidental Death Benefit": 2725
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P025",
+    "name": "Term Life Plan 10",
+    "type": "term_life",
+    "company": "Religare",
+    "coverage": 300000,
+    "premium": 6300,
+    "waiting_period": "1 month",
+    "exclusions": [
+      "Mental illness treatments",
+      "Cosmetic surgery",
+      "Dental treatment unless due to accident"
+    ],
+    "riders": [
+      "Hospital Cash Benefit",
+      "Critical Illness Cover"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Claim made during waiting period",
+        "reason": "Policy waiting period not completed"
+      },
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      }
+    ],
+    "detailed_terms": "Religare's Term Life insurance plan provides tailored protection with a coverage of \u20b9300,000 at an annual premium of \u20b96,300. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Hospital Cash Benefit, Critical Illness Cover enhance protection based on individual and family needs. Policy exclusions include Mental illness treatments, Cosmetic surgery, Dental treatment unless due to accident. Pre-existing diseases are covered after a waiting period of 1 month. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "heart disease": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.12
+        },
+        "mental illness": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.12
+        },
+        "obese": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.36
+        },
+        "cancer": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.92
+        },
+        "hypertension": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.66
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 5670,
+      "26-35": 6300,
+      "36-45": 7560,
+      "46-60": 9450,
+      "60+": 12600
+    },
+    "decline_conditions": [
+      "cancer"
+    ],
+    "rider_costs": {
+      "Hospital Cash Benefit": 2607,
+      "Critical Illness Cover": 1142
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P066",
+    "name": "Term_Life Plan P066",
+    "type": "term_life",
+    "company": "LIC",
+    "coverage": 300000,
+    "premium": 17483,
+    "waiting_period": "1 month",
+    "exclusions": [
+      "Substance abuse-related conditions",
+      "Cosmetic surgery",
+      "Participation in hazardous sports"
+    ],
+    "riders": [
+      "Maternity Cover",
+      "Hospital Cash Benefit"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      },
+      {
+        "clause": "Claim made during waiting period",
+        "reason": "Policy waiting period not completed"
+      }
+    ],
+    "detailed_terms": "LIC's Term Life insurance plan provides tailored protection with a coverage of \u20b9300,000 at an annual premium of \u20b917,483. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Maternity Cover, Hospital Cash Benefit enhance protection based on individual and family needs. Policy exclusions include Substance abuse-related conditions, Cosmetic surgery, Participation in hazardous sports. Pre-existing diseases are covered after a waiting period of 1 month. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "hypertension": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.32
+        },
+        "diabetes": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.27
+        },
+        "cancer": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.79
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 15735,
+      "26-35": 17483,
+      "36-45": 20980,
+      "46-60": 26224,
+      "60+": 34966
+    },
+    "decline_conditions": [
+      "HIV/AIDS",
+      "cancer"
+    ],
+    "rider_costs": {
+      "Maternity Cover": 1059,
+      "Hospital Cash Benefit": 1550
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P181",
+    "name": "Term_Life Plan P181",
+    "type": "term_life",
+    "company": "Aditya Birla",
+    "coverage": 500000,
+    "premium": 4183,
+    "waiting_period": "6 months",
+    "exclusions": [
+      "Cosmetic surgery",
+      "Maternity within first 9 months",
+      "Substance abuse-related conditions"
+    ],
+    "riders": [
+      "Maternity Cover",
+      "Hospital Cash Benefit",
+      "Accidental Death Benefit"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Hospitalization < 24 hours",
+        "reason": "Minimum hospitalization time not met"
+      },
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      }
+    ],
+    "detailed_terms": "Aditya Birla's Term Life insurance plan provides tailored protection with a coverage of \u20b9500,000 at an annual premium of \u20b94,183. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Maternity Cover, Hospital Cash Benefit, Accidental Death Benefit enhance protection based on individual and family needs. Policy exclusions include Cosmetic surgery, Maternity within first 9 months, Substance abuse-related conditions. Pre-existing diseases are covered after a waiting period of 6 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "smoker": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.49
+        },
+        "obese": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.37
+        },
+        "mental illness": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.59
+        },
+        "diabetes": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.22
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 3765,
+      "26-35": 4183,
+      "36-45": 5020,
+      "46-60": 6274,
+      "60+": 8366
+    },
+    "decline_conditions": [
+      "advanced heart failure"
+    ],
+    "rider_costs": {
+      "Maternity Cover": 2673,
+      "Hospital Cash Benefit": 1568,
+      "Accidental Death Benefit": 792
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P144",
+    "name": "Term_Life Plan P144",
+    "type": "term_life",
+    "company": "Aditya Birla",
+    "coverage": 700000,
+    "premium": 10094,
+    "waiting_period": "6 months",
+    "exclusions": [
+      "Pre-existing disease for 2 years",
+      "Maternity within first 9 months"
+    ],
+    "riders": [
+      "Hospital Cash Benefit"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Non-network hospital without prior approval",
+        "reason": "Cashless not available"
+      },
+      {
+        "clause": "Hospitalization < 24 hours",
+        "reason": "Minimum hospitalization time not met"
+      }
+    ],
+    "detailed_terms": "Aditya Birla's Term Life insurance plan provides tailored protection with a coverage of \u20b9700,000 at an annual premium of \u20b910,094. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Hospital Cash Benefit enhance protection based on individual and family needs. Policy exclusions include Pre-existing disease for 2 years, Maternity within first 9 months. Pre-existing diseases are covered after a waiting period of 6 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "smoker": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.32
+        },
+        "heart disease": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.07
+        },
+        "hypertension": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.8
+        },
+        "obese": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.08
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 9085,
+      "26-35": 10094,
+      "36-45": 12113,
+      "46-60": 15141,
+      "60+": 20188
+    },
+    "decline_conditions": [
+      "cancer",
+      "advanced heart failure"
+    ],
+    "rider_costs": {
+      "Hospital Cash Benefit": 2769
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P115",
+    "name": "Term_Life Plan P115",
+    "type": "term_life",
+    "company": "LIC",
+    "coverage": 300000,
+    "premium": 5464,
+    "waiting_period": "3 months",
+    "exclusions": [
+      "Cosmetic surgery",
+      "Pre-existing disease for 2 years",
+      "Substance abuse-related conditions"
+    ],
+    "riders": [
+      "Maternity Cover",
+      "Accidental Death Benefit"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Non-network hospital without prior approval",
+        "reason": "Cashless not available"
+      },
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      }
+    ],
+    "detailed_terms": "LIC's Term Life insurance plan provides tailored protection with a coverage of \u20b9300,000 at an annual premium of \u20b95,464. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Maternity Cover, Accidental Death Benefit enhance protection based on individual and family needs. Policy exclusions include Cosmetic surgery, Pre-existing disease for 2 years, Substance abuse-related conditions. Pre-existing diseases are covered after a waiting period of 3 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "heart disease": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.46
+        },
+        "obese": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.33
+        },
+        "smoker": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.37
+        },
+        "mental illness": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 2.05
+        },
+        "diabetes": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.24
+        }
+      },
+      "max_risk_class": "Decline",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 4918,
+      "26-35": 5464,
+      "36-45": 6557,
+      "46-60": 8196,
+      "60+": 10928
+    },
+    "decline_conditions": [
+      "late-stage kidney disease"
+    ],
+    "rider_costs": {
+      "Maternity Cover": 1671,
+      "Accidental Death Benefit": 1449
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P151",
+    "name": "Term_Life Plan P151",
+    "type": "term_life",
+    "company": "ICICI Prudential",
+    "coverage": 300000,
+    "premium": 9239,
+    "waiting_period": "6 months",
+    "exclusions": [
+      "Substance abuse-related conditions",
+      "Participation in hazardous sports",
+      "War or terrorism injuries"
+    ],
+    "riders": [
+      "Critical Illness Cover",
+      "Accidental Death Benefit"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Hospitalization < 24 hours",
+        "reason": "Minimum hospitalization time not met"
+      },
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      }
+    ],
+    "detailed_terms": "ICICI Prudential's Term Life insurance plan provides tailored protection with a coverage of \u20b9300,000 at an annual premium of \u20b99,239. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Critical Illness Cover, Accidental Death Benefit enhance protection based on individual and family needs. Policy exclusions include Substance abuse-related conditions, Participation in hazardous sports, War or terrorism injuries. Pre-existing diseases are covered after a waiting period of 6 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "high cholesterol": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 2.12
+        },
+        "mental illness": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.37
+        },
+        "obese": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.38
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 8315,
+      "26-35": 9239,
+      "36-45": 11087,
+      "46-60": 13858,
+      "60+": 18478
+    },
+    "decline_conditions": [
+      "cancer"
+    ],
+    "rider_costs": {
+      "Critical Illness Cover": 1216,
+      "Accidental Death Benefit": 2477
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P145",
+    "name": "Term_Life Plan P145",
+    "type": "term_life",
+    "company": "Religare",
+    "coverage": 300000,
+    "premium": 19231,
+    "waiting_period": "1 month",
+    "exclusions": [
+      "Participation in hazardous sports",
+      "Mental illness treatments"
+    ],
+    "riders": [
+      "Personal Accident Cover",
+      "Waiver of Premium"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      },
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      }
+    ],
+    "detailed_terms": "Religare's Term Life insurance plan provides tailored protection with a coverage of \u20b9300,000 at an annual premium of \u20b919,231. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Personal Accident Cover, Waiver of Premium enhance protection based on individual and family needs. Policy exclusions include Participation in hazardous sports, Mental illness treatments. Pre-existing diseases are covered after a waiting period of 1 month. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "diabetes": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.08
+        },
+        "high cholesterol": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.11
+        },
+        "smoker": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.81
+        },
+        "heart disease": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.5
+        },
+        "asthma": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 2.23
+        },
+        "hypertension": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 2.01
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": false,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 17308,
+      "26-35": 19231,
+      "36-45": 23077,
+      "46-60": 28846,
+      "60+": 38462
+    },
+    "decline_conditions": [
+      "cancer"
+    ],
+    "rider_costs": {
+      "Personal Accident Cover": 1027,
+      "Waiver of Premium": 2991
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P081",
+    "name": "Term_Life Plan P081",
+    "type": "term_life",
+    "company": "Tata AIA",
+    "coverage": 700000,
+    "premium": 15716,
+    "waiting_period": "6 months",
+    "exclusions": [
+      "Cosmetic surgery",
+      "Substance abuse-related conditions",
+      "Participation in hazardous sports"
+    ],
+    "riders": [
+      "Cancer Protection Rider",
+      "Maternity Cover",
+      "Critical Illness Cover"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      },
+      {
+        "clause": "Hospitalization < 24 hours",
+        "reason": "Minimum hospitalization time not met"
+      }
+    ],
+    "detailed_terms": "Tata AIA's Term Life insurance plan provides tailored protection with a coverage of \u20b9700,000 at an annual premium of \u20b915,716. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Cancer Protection Rider, Maternity Cover, Critical Illness Cover enhance protection based on individual and family needs. Policy exclusions include Cosmetic surgery, Substance abuse-related conditions, Participation in hazardous sports. Pre-existing diseases are covered after a waiting period of 6 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "heart disease": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.95
+        },
+        "smoker": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.48
+        },
+        "high cholesterol": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 2.08
+        }
+      },
+      "max_risk_class": "Decline",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 14144,
+      "26-35": 15716,
+      "36-45": 18859,
+      "46-60": 23574,
+      "60+": 31432
+    },
+    "decline_conditions": [
+      "HIV/AIDS"
+    ],
+    "rider_costs": {
+      "Cancer Protection Rider": 1836,
+      "Maternity Cover": 1246,
+      "Critical Illness Cover": 2466
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P076",
+    "name": "Term_Life Plan P076",
+    "type": "term_life",
+    "company": "Religare",
+    "coverage": 700000,
+    "premium": 19113,
+    "waiting_period": "3 months",
+    "exclusions": [
+      "Participation in hazardous sports",
+      "Self-inflicted injuries",
+      "Dental treatment unless due to accident",
+      "Substance abuse-related conditions"
+    ],
+    "riders": [
+      "Hospital Cash Benefit",
+      "Waiver of Premium"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Hospitalization < 24 hours",
+        "reason": "Minimum hospitalization time not met"
+      },
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      }
+    ],
+    "detailed_terms": "Religare's Term Life insurance plan provides tailored protection with a coverage of \u20b9700,000 at an annual premium of \u20b919,113. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Hospital Cash Benefit, Waiver of Premium enhance protection based on individual and family needs. Policy exclusions include Participation in hazardous sports, Self-inflicted injuries, Dental treatment unless due to accident, Substance abuse-related conditions. Pre-existing diseases are covered after a waiting period of 3 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "hypertension": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.24
+        },
+        "asthma": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.64
+        },
+        "mental illness": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.1
+        },
+        "heart disease": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.02
+        }
+      },
+      "max_risk_class": "Decline",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": false,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 17202,
+      "26-35": 19113,
+      "36-45": 22936,
+      "46-60": 28670,
+      "60+": 38226
+    },
+    "decline_conditions": [
+      "HIV/AIDS"
+    ],
+    "rider_costs": {
+      "Hospital Cash Benefit": 875,
+      "Waiver of Premium": 976
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P058",
+    "name": "Term_Life Plan P058",
+    "type": "term_life",
+    "company": "Max Bupa",
+    "coverage": 1500000,
+    "premium": 6468,
+    "waiting_period": "6 months",
+    "exclusions": [
+      "Substance abuse-related conditions",
+      "Self-inflicted injuries",
+      "Dental treatment unless due to accident"
+    ],
+    "riders": [
+      "Hospital Cash Benefit",
+      "Critical Illness Cover",
+      "Personal Accident Cover"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      },
+      {
+        "clause": "Hospitalization < 24 hours",
+        "reason": "Minimum hospitalization time not met"
+      }
+    ],
+    "detailed_terms": "Max Bupa's Term Life insurance plan provides tailored protection with a coverage of \u20b91,500,000 at an annual premium of \u20b96,468. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Hospital Cash Benefit, Critical Illness Cover, Personal Accident Cover enhance protection based on individual and family needs. Policy exclusions include Substance abuse-related conditions, Self-inflicted injuries, Dental treatment unless due to accident. Pre-existing diseases are covered after a waiting period of 6 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "high cholesterol": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.93
+        },
+        "cancer": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.43
+        },
+        "diabetes": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.32
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 5821,
+      "26-35": 6468,
+      "36-45": 7762,
+      "46-60": 9702,
+      "60+": 12936
+    },
+    "decline_conditions": [
+      "advanced heart failure"
+    ],
+    "rider_costs": {
+      "Hospital Cash Benefit": 2970,
+      "Critical Illness Cover": 1353,
+      "Personal Accident Cover": 1864
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P019",
+    "name": "Term Life Plan 4",
+    "type": "term_life",
+    "company": "HDFC Life",
+    "coverage": 300000,
+    "premium": 11000,
+    "waiting_period": "6 months",
+    "exclusions": [
+      "Maternity within first 9 months",
+      "Participation in hazardous sports",
+      "Substance abuse-related conditions"
+    ],
+    "riders": [
+      "Hospital Cash Benefit",
+      "Accidental Death Benefit"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Claim made during waiting period",
+        "reason": "Policy waiting period not completed"
+      },
+      {
+        "clause": "Non-network hospital without prior approval",
+        "reason": "Cashless not available"
+      }
+    ],
+    "detailed_terms": "HDFC Life's Term Life insurance plan provides tailored protection with a coverage of \u20b9300,000 at an annual premium of \u20b911,000. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Hospital Cash Benefit, Accidental Death Benefit enhance protection based on individual and family needs. Policy exclusions include Maternity within first 9 months, Participation in hazardous sports, Substance abuse-related conditions. Pre-existing diseases are covered after a waiting period of 6 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "diabetes": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.06
+        },
+        "cancer": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.34
+        },
+        "high cholesterol": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.75
+        },
+        "mental illness": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.23
+        }
+      },
+      "max_risk_class": "Decline",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 9900,
+      "26-35": 11000,
+      "36-45": 13200,
+      "46-60": 16500,
+      "60+": 22000
+    },
+    "decline_conditions": [
+      "HIV/AIDS",
+      "late-stage kidney disease"
+    ],
+    "rider_costs": {
+      "Hospital Cash Benefit": 987,
+      "Accidental Death Benefit": 1359
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P028",
+    "name": "Term Life Plan 13",
+    "type": "term_life",
+    "company": "ICICI Prudential",
+    "coverage": 500000,
+    "premium": 15000,
+    "waiting_period": "6 months",
+    "exclusions": [
+      "Mental illness treatments",
+      "Substance abuse-related conditions",
+      "Participation in hazardous sports"
+    ],
+    "riders": [
+      "Waiver of Premium",
+      "Cancer Protection Rider"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      },
+      {
+        "clause": "Non-network hospital without prior approval",
+        "reason": "Cashless not available"
+      }
+    ],
+    "detailed_terms": "ICICI Prudential's Term Life insurance plan provides tailored protection with a coverage of \u20b9500,000 at an annual premium of \u20b915,000. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Waiver of Premium, Cancer Protection Rider enhance protection based on individual and family needs. Policy exclusions include Mental illness treatments, Substance abuse-related conditions, Participation in hazardous sports. Pre-existing diseases are covered after a waiting period of 6 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "mental illness": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.36
+        },
+        "high cholesterol": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.8
+        },
+        "hypertension": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.7
+        },
+        "cancer": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.26
+        },
+        "asthma": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.89
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": false,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 13500,
+      "26-35": 15000,
+      "36-45": 18000,
+      "46-60": 22500,
+      "60+": 30000
+    },
+    "decline_conditions": [
+      "cancer"
+    ],
+    "rider_costs": {
+      "Waiver of Premium": 2445,
+      "Cancer Protection Rider": 1163
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P121",
+    "name": "Term_Life Plan P121",
+    "type": "term_life",
+    "company": "Star Health",
+    "coverage": 700000,
+    "premium": 18652,
+    "waiting_period": "3 months",
+    "exclusions": [
+      "Substance abuse-related conditions",
+      "Cosmetic surgery"
+    ],
+    "riders": [
+      "Accidental Death Benefit",
+      "Waiver of Premium",
+      "Cancer Protection Rider"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      },
+      {
+        "clause": "Non-network hospital without prior approval",
+        "reason": "Cashless not available"
+      }
+    ],
+    "detailed_terms": "Star Health's Term Life insurance plan provides tailored protection with a coverage of \u20b9700,000 at an annual premium of \u20b918,652. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Accidental Death Benefit, Waiver of Premium, Cancer Protection Rider enhance protection based on individual and family needs. Policy exclusions include Substance abuse-related conditions, Cosmetic surgery. Pre-existing diseases are covered after a waiting period of 3 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "heart disease": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.98
+        },
+        "high cholesterol": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.54
+        },
+        "mental illness": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.57
+        },
+        "asthma": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.89
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 16787,
+      "26-35": 18652,
+      "36-45": 22382,
+      "46-60": 27978,
+      "60+": 37304
+    },
+    "decline_conditions": [
+      "cancer",
+      "advanced heart failure"
+    ],
+    "rider_costs": {
+      "Accidental Death Benefit": 1026,
+      "Waiver of Premium": 1084,
+      "Cancer Protection Rider": 2013
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P127",
+    "name": "Term_Life Plan P127",
+    "type": "term_life",
+    "company": "Tata AIA",
+    "coverage": 1500000,
+    "premium": 18760,
+    "waiting_period": "6 months",
+    "exclusions": [
+      "Substance abuse-related conditions",
+      "Dental treatment unless due to accident",
+      "Pre-existing disease for 2 years",
+      "Self-inflicted injuries"
+    ],
+    "riders": [
+      "Personal Accident Cover",
+      "Accidental Death Benefit"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      },
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      }
+    ],
+    "detailed_terms": "Tata AIA's Term Life insurance plan provides tailored protection with a coverage of \u20b91,500,000 at an annual premium of \u20b918,760. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Personal Accident Cover, Accidental Death Benefit enhance protection based on individual and family needs. Policy exclusions include Substance abuse-related conditions, Dental treatment unless due to accident, Pre-existing disease for 2 years, Self-inflicted injuries. Pre-existing diseases are covered after a waiting period of 6 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "cancer": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.1
+        },
+        "high cholesterol": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.77
+        },
+        "hypertension": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.37
+        },
+        "heart disease": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 2.06
+        },
+        "asthma": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.21
+        },
+        "diabetes": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 2.15
+        }
+      },
+      "max_risk_class": "Decline",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 16884,
+      "26-35": 18760,
+      "36-45": 22512,
+      "46-60": 28140,
+      "60+": 37520
+    },
+    "decline_conditions": [
+      "advanced heart failure",
+      "HIV/AIDS"
+    ],
+    "rider_costs": {
+      "Personal Accident Cover": 1642,
+      "Accidental Death Benefit": 2939
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P036",
+    "name": "Family Floater Plan 6",
+    "type": "family_floater",
+    "company": "LIC",
+    "coverage": 300000,
+    "premium": 6300,
+    "waiting_period": "3 months",
+    "exclusions": [
+      "War or terrorism injuries",
+      "Maternity within first 9 months",
+      "Substance abuse-related conditions"
+    ],
+    "riders": [
+      "Cancer Protection Rider",
+      "Hospital Cash Benefit"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Claim made during waiting period",
+        "reason": "Policy waiting period not completed"
+      },
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      }
+    ],
+    "detailed_terms": "LIC's Family Floater insurance plan provides tailored protection with a coverage of \u20b9300,000 at an annual premium of \u20b96,300. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Cancer Protection Rider, Hospital Cash Benefit enhance protection based on individual and family needs. Policy exclusions include War or terrorism injuries, Maternity within first 9 months, Substance abuse-related conditions. Pre-existing diseases are covered after a waiting period of 3 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "smoker": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.74
+        },
+        "diabetes": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.48
+        },
+        "mental illness": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.65
+        },
+        "asthma": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.27
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 5670,
+      "26-35": 6300,
+      "36-45": 7560,
+      "46-60": 9450,
+      "60+": 12600
+    },
+    "decline_conditions": [
+      "late-stage kidney disease"
+    ],
+    "rider_costs": {
+      "Cancer Protection Rider": 1724,
+      "Hospital Cash Benefit": 884
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P033",
+    "name": "Family Floater Plan 3",
+    "type": "family_floater",
+    "company": "Religare",
+    "coverage": 1000000,
+    "premium": 15000,
+    "waiting_period": "3 months",
+    "exclusions": [
+      "Dental treatment unless due to accident",
+      "Cosmetic surgery",
+      "Substance abuse-related conditions"
+    ],
+    "riders": [
+      "Accidental Death Benefit",
+      "Critical Illness Cover"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      },
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      }
+    ],
+    "detailed_terms": "Religare's Family Floater insurance plan provides tailored protection with a coverage of \u20b91,000,000 at an annual premium of \u20b915,000. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Accidental Death Benefit, Critical Illness Cover enhance protection based on individual and family needs. Policy exclusions include Dental treatment unless due to accident, Cosmetic surgery, Substance abuse-related conditions. Pre-existing diseases are covered after a waiting period of 3 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "hypertension": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.45
+        },
+        "cancer": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.16
+        },
+        "heart disease": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.16
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": false,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 13500,
+      "26-35": 15000,
+      "36-45": 18000,
+      "46-60": 22500,
+      "60+": 30000
+    },
+    "decline_conditions": [
+      "advanced heart failure"
+    ],
+    "rider_costs": {
+      "Accidental Death Benefit": 767,
+      "Critical Illness Cover": 931
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P079",
+    "name": "Family_Floater Plan P079",
+    "type": "family_floater",
+    "company": "LIC",
+    "coverage": 300000,
+    "premium": 15414,
+    "waiting_period": "3 months",
+    "exclusions": [
+      "Substance abuse-related conditions",
+      "Cosmetic surgery",
+      "War or terrorism injuries",
+      "Maternity within first 9 months"
+    ],
+    "riders": [
+      "Maternity Cover"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Non-network hospital without prior approval",
+        "reason": "Cashless not available"
+      },
+      {
+        "clause": "Hospitalization < 24 hours",
+        "reason": "Minimum hospitalization time not met"
+      }
+    ],
+    "detailed_terms": "LIC's Family Floater insurance plan provides tailored protection with a coverage of \u20b9300,000 at an annual premium of \u20b915,414. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Maternity Cover enhance protection based on individual and family needs. Policy exclusions include Substance abuse-related conditions, Cosmetic surgery, War or terrorism injuries, Maternity within first 9 months. Pre-existing diseases are covered after a waiting period of 3 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "mental illness": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.36
+        },
+        "hypertension": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.87
+        },
+        "asthma": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.28
+        },
+        "cancer": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.21
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 13873,
+      "26-35": 15414,
+      "36-45": 18497,
+      "46-60": 23121,
+      "60+": 30828
+    },
+    "decline_conditions": [
+      "HIV/AIDS",
+      "cancer"
+    ],
+    "rider_costs": {
+      "Maternity Cover": 2476
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P035",
+    "name": "Family Floater Plan 5",
+    "type": "family_floater",
+    "company": "Tata AIA",
+    "coverage": 1500000,
+    "premium": 7800,
+    "waiting_period": "6 months",
+    "exclusions": [
+      "Cosmetic surgery",
+      "War or terrorism injuries",
+      "Substance abuse-related conditions"
+    ],
+    "riders": [
+      "Personal Accident Cover",
+      "Cancer Protection Rider"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      },
+      {
+        "clause": "Hospitalization < 24 hours",
+        "reason": "Minimum hospitalization time not met"
+      }
+    ],
+    "detailed_terms": "Tata AIA's Family Floater insurance plan provides tailored protection with a coverage of \u20b91,500,000 at an annual premium of \u20b97,800. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Personal Accident Cover, Cancer Protection Rider enhance protection based on individual and family needs. Policy exclusions include Cosmetic surgery, War or terrorism injuries, Substance abuse-related conditions. Pre-existing diseases are covered after a waiting period of 6 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "heart disease": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.37
+        },
+        "asthma": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.8
+        },
+        "cancer": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.08
+        },
+        "mental illness": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.43
+        },
+        "smoker": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.5
+        },
+        "obese": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.0
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": false,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 7020,
+      "26-35": 7800,
+      "36-45": 9360,
+      "46-60": 11700,
+      "60+": 15600
+    },
+    "decline_conditions": [
+      "advanced heart failure"
+    ],
+    "rider_costs": {
+      "Personal Accident Cover": 622,
+      "Cancer Protection Rider": 2889
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P129",
+    "name": "Family_Floater Plan P129",
+    "type": "family_floater",
+    "company": "Tata AIA",
+    "coverage": 1000000,
+    "premium": 18114,
+    "waiting_period": "6 months",
+    "exclusions": [
+      "Participation in hazardous sports",
+      "Self-inflicted injuries",
+      "Dental treatment unless due to accident",
+      "War or terrorism injuries"
+    ],
+    "riders": [
+      "Accidental Death Benefit",
+      "Critical Illness Cover",
+      "Cancer Protection Rider"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      },
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      }
+    ],
+    "detailed_terms": "Tata AIA's Family Floater insurance plan provides tailored protection with a coverage of \u20b91,000,000 at an annual premium of \u20b918,114. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Accidental Death Benefit, Critical Illness Cover, Cancer Protection Rider enhance protection based on individual and family needs. Policy exclusions include Participation in hazardous sports, Self-inflicted injuries, Dental treatment unless due to accident, War or terrorism injuries. Pre-existing diseases are covered after a waiting period of 6 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "heart disease": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.6
+        },
+        "mental illness": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.13
+        },
+        "smoker": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.26
+        },
+        "hypertension": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.75
+        },
+        "asthma": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.96
+        },
+        "high cholesterol": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.2
+        }
+      },
+      "max_risk_class": "Decline",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 16303,
+      "26-35": 18114,
+      "36-45": 21737,
+      "46-60": 27171,
+      "60+": 36228
+    },
+    "decline_conditions": [
+      "late-stage kidney disease",
+      "advanced heart failure"
+    ],
+    "rider_costs": {
+      "Accidental Death Benefit": 2906,
+      "Critical Illness Cover": 2494,
+      "Cancer Protection Rider": 671
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P041",
+    "name": "Family Floater Plan 11",
+    "type": "family_floater",
+    "company": "LIC",
+    "coverage": 1500000,
+    "premium": 4000,
+    "waiting_period": "6 months",
+    "exclusions": [
+      "Substance abuse-related conditions",
+      "Self-inflicted injuries",
+      "War or terrorism injuries"
+    ],
+    "riders": [
+      "Critical Illness Cover",
+      "Maternity Cover"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Non-network hospital without prior approval",
+        "reason": "Cashless not available"
+      },
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      }
+    ],
+    "detailed_terms": "LIC's Family Floater insurance plan provides tailored protection with a coverage of \u20b91,500,000 at an annual premium of \u20b94,000. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Critical Illness Cover, Maternity Cover enhance protection based on individual and family needs. Policy exclusions include Substance abuse-related conditions, Self-inflicted injuries, War or terrorism injuries. Pre-existing diseases are covered after a waiting period of 6 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "high cholesterol": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.17
+        },
+        "asthma": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.55
+        },
+        "diabetes": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.18
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": false,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 3600,
+      "26-35": 4000,
+      "36-45": 4800,
+      "46-60": 6000,
+      "60+": 8000
+    },
+    "decline_conditions": [
+      "late-stage kidney disease",
+      "cancer"
+    ],
+    "rider_costs": {
+      "Critical Illness Cover": 2834,
+      "Maternity Cover": 1259
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P155",
+    "name": "Family_Floater Plan P155",
+    "type": "family_floater",
+    "company": "Star Health",
+    "coverage": 1000000,
+    "premium": 11724,
+    "waiting_period": "6 months",
+    "exclusions": [
+      "Participation in hazardous sports",
+      "Dental treatment unless due to accident",
+      "Mental illness treatments",
+      "Cosmetic surgery"
+    ],
+    "riders": [
+      "Accidental Death Benefit",
+      "Hospital Cash Benefit",
+      "Critical Illness Cover"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Claim made during waiting period",
+        "reason": "Policy waiting period not completed"
+      },
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      }
+    ],
+    "detailed_terms": "Star Health's Family Floater insurance plan provides tailored protection with a coverage of \u20b91,000,000 at an annual premium of \u20b911,724. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Accidental Death Benefit, Hospital Cash Benefit, Critical Illness Cover enhance protection based on individual and family needs. Policy exclusions include Participation in hazardous sports, Dental treatment unless due to accident, Mental illness treatments, Cosmetic surgery. Pre-existing diseases are covered after a waiting period of 6 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "high cholesterol": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.49
+        },
+        "smoker": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.64
+        },
+        "obese": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.71
+        },
+        "diabetes": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.15
+        },
+        "heart disease": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.97
+        },
+        "mental illness": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.34
+        }
+      },
+      "max_risk_class": "Decline",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": false,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 10552,
+      "26-35": 11724,
+      "36-45": 14069,
+      "46-60": 17586,
+      "60+": 23448
+    },
+    "decline_conditions": [
+      "advanced heart failure"
+    ],
+    "rider_costs": {
+      "Accidental Death Benefit": 1067,
+      "Hospital Cash Benefit": 1988,
+      "Critical Illness Cover": 1749
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P044",
+    "name": "Family Floater Plan 14",
+    "type": "family_floater",
+    "company": "Tata AIA",
+    "coverage": 1000000,
+    "premium": 11000,
+    "waiting_period": "1 month",
+    "exclusions": [
+      "Mental illness treatments",
+      "Substance abuse-related conditions",
+      "Pre-existing disease for 2 years"
+    ],
+    "riders": [
+      "Critical Illness Cover",
+      "Cancer Protection Rider"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Hospitalization < 24 hours",
+        "reason": "Minimum hospitalization time not met"
+      },
+      {
+        "clause": "Non-network hospital without prior approval",
+        "reason": "Cashless not available"
+      }
+    ],
+    "detailed_terms": "Tata AIA's Family Floater insurance plan provides tailored protection with a coverage of \u20b91,000,000 at an annual premium of \u20b911,000. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Critical Illness Cover, Cancer Protection Rider enhance protection based on individual and family needs. Policy exclusions include Mental illness treatments, Substance abuse-related conditions, Pre-existing disease for 2 years. Pre-existing diseases are covered after a waiting period of 1 month. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "mental illness": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.75
+        },
+        "asthma": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.22
+        },
+        "smoker": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.41
+        },
+        "obese": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.36
+        },
+        "cancer": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.41
+        }
+      },
+      "max_risk_class": "Decline",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 9900,
+      "26-35": 11000,
+      "36-45": 13200,
+      "46-60": 16500,
+      "60+": 22000
+    },
+    "decline_conditions": [
+      "cancer"
+    ],
+    "rider_costs": {
+      "Critical Illness Cover": 2459,
+      "Cancer Protection Rider": 1935
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P105",
+    "name": "Family_Floater Plan P105",
+    "type": "family_floater",
+    "company": "Star Health",
+    "coverage": 300000,
+    "premium": 7894,
+    "waiting_period": "1 month",
+    "exclusions": [
+      "Maternity within first 9 months",
+      "Self-inflicted injuries",
+      "Cosmetic surgery"
+    ],
+    "riders": [
+      "Waiver of Premium",
+      "Accidental Death Benefit",
+      "Personal Accident Cover"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      },
+      {
+        "clause": "Claim made during waiting period",
+        "reason": "Policy waiting period not completed"
+      }
+    ],
+    "detailed_terms": "Star Health's Family Floater insurance plan provides tailored protection with a coverage of \u20b9300,000 at an annual premium of \u20b97,894. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Waiver of Premium, Accidental Death Benefit, Personal Accident Cover enhance protection based on individual and family needs. Policy exclusions include Maternity within first 9 months, Self-inflicted injuries, Cosmetic surgery. Pre-existing diseases are covered after a waiting period of 1 month. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "hypertension": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 2.38
+        },
+        "asthma": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.21
+        },
+        "diabetes": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.06
+        },
+        "obese": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.3
+        }
+      },
+      "max_risk_class": "Decline",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 7105,
+      "26-35": 7894,
+      "36-45": 9473,
+      "46-60": 11841,
+      "60+": 15788
+    },
+    "decline_conditions": [
+      "cancer"
+    ],
+    "rider_costs": {
+      "Waiver of Premium": 1851,
+      "Accidental Death Benefit": 1705,
+      "Personal Accident Cover": 2037
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P139",
+    "name": "Family_Floater Plan P139",
+    "type": "family_floater",
+    "company": "Aditya Birla",
+    "coverage": 500000,
+    "premium": 10135,
+    "waiting_period": "6 months",
+    "exclusions": [
+      "Mental illness treatments",
+      "Pre-existing disease for 2 years",
+      "War or terrorism injuries",
+      "Participation in hazardous sports"
+    ],
+    "riders": [
+      "Critical Illness Cover",
+      "Accidental Death Benefit",
+      "Personal Accident Cover"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Hospitalization < 24 hours",
+        "reason": "Minimum hospitalization time not met"
+      },
+      {
+        "clause": "Claim made during waiting period",
+        "reason": "Policy waiting period not completed"
+      }
+    ],
+    "detailed_terms": "Aditya Birla's Family Floater insurance plan provides tailored protection with a coverage of \u20b9500,000 at an annual premium of \u20b910,135. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Critical Illness Cover, Accidental Death Benefit, Personal Accident Cover enhance protection based on individual and family needs. Policy exclusions include Mental illness treatments, Pre-existing disease for 2 years, War or terrorism injuries, Participation in hazardous sports. Pre-existing diseases are covered after a waiting period of 6 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "hypertension": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.87
+        },
+        "mental illness": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.12
+        },
+        "diabetes": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.03
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": false,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 9122,
+      "26-35": 10135,
+      "36-45": 12162,
+      "46-60": 15202,
+      "60+": 20270
+    },
+    "decline_conditions": [
+      "late-stage kidney disease",
+      "cancer"
+    ],
+    "rider_costs": {
+      "Critical Illness Cover": 2242,
+      "Accidental Death Benefit": 2508,
+      "Personal Accident Cover": 1580
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P071",
+    "name": "Family_Floater Plan P071",
+    "type": "family_floater",
+    "company": "LIC",
+    "coverage": 700000,
+    "premium": 19753,
+    "waiting_period": "1 month",
+    "exclusions": [
+      "Cosmetic surgery",
+      "Dental treatment unless due to accident",
+      "War or terrorism injuries"
+    ],
+    "riders": [
+      "Accidental Death Benefit"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      },
+      {
+        "clause": "Non-network hospital without prior approval",
+        "reason": "Cashless not available"
+      }
+    ],
+    "detailed_terms": "LIC's Family Floater insurance plan provides tailored protection with a coverage of \u20b9700,000 at an annual premium of \u20b919,753. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Accidental Death Benefit enhance protection based on individual and family needs. Policy exclusions include Cosmetic surgery, Dental treatment unless due to accident, War or terrorism injuries. Pre-existing diseases are covered after a waiting period of 1 month. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "asthma": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.14
+        },
+        "hypertension": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.92
+        },
+        "high cholesterol": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.76
+        },
+        "diabetes": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.29
+        },
+        "heart disease": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.84
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 17778,
+      "26-35": 19753,
+      "36-45": 23704,
+      "46-60": 29630,
+      "60+": 39506
+    },
+    "decline_conditions": [
+      "cancer"
+    ],
+    "rider_costs": {
+      "Accidental Death Benefit": 1869
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P130",
+    "name": "Family_Floater Plan P130",
+    "type": "family_floater",
+    "company": "Aditya Birla",
+    "coverage": 700000,
+    "premium": 19218,
+    "waiting_period": "6 months",
+    "exclusions": [
+      "Cosmetic surgery",
+      "Maternity within first 9 months",
+      "War or terrorism injuries",
+      "Self-inflicted injuries"
+    ],
+    "riders": [
+      "Cancer Protection Rider"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Non-network hospital without prior approval",
+        "reason": "Cashless not available"
+      },
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      }
+    ],
+    "detailed_terms": "Aditya Birla's Family Floater insurance plan provides tailored protection with a coverage of \u20b9700,000 at an annual premium of \u20b919,218. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Cancer Protection Rider enhance protection based on individual and family needs. Policy exclusions include Cosmetic surgery, Maternity within first 9 months, War or terrorism injuries, Self-inflicted injuries. Pre-existing diseases are covered after a waiting period of 6 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "mental illness": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.67
+        },
+        "smoker": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.35
+        },
+        "cancer": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 2.46
+        },
+        "asthma": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 2.14
+        },
+        "high cholesterol": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.23
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": false,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 17296,
+      "26-35": 19218,
+      "36-45": 23062,
+      "46-60": 28827,
+      "60+": 38436
+    },
+    "decline_conditions": [
+      "late-stage kidney disease",
+      "cancer"
+    ],
+    "rider_costs": {
+      "Cancer Protection Rider": 1883
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P088",
+    "name": "Family_Floater Plan P088",
+    "type": "family_floater",
+    "company": "Tata AIA",
+    "coverage": 1000000,
+    "premium": 11228,
+    "waiting_period": "1 month",
+    "exclusions": [
+      "Substance abuse-related conditions",
+      "Participation in hazardous sports"
+    ],
+    "riders": [
+      "Accidental Death Benefit"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      },
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      }
+    ],
+    "detailed_terms": "Tata AIA's Family Floater insurance plan provides tailored protection with a coverage of \u20b91,000,000 at an annual premium of \u20b911,228. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Accidental Death Benefit enhance protection based on individual and family needs. Policy exclusions include Substance abuse-related conditions, Participation in hazardous sports. Pre-existing diseases are covered after a waiting period of 1 month. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "diabetes": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.31
+        },
+        "asthma": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.96
+        },
+        "hypertension": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.88
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": false,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 10105,
+      "26-35": 11228,
+      "36-45": 13474,
+      "46-60": 16842,
+      "60+": 22456
+    },
+    "decline_conditions": [
+      "cancer"
+    ],
+    "rider_costs": {
+      "Accidental Death Benefit": 2668
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P132",
+    "name": "Family_Floater Plan P132",
+    "type": "family_floater",
+    "company": "LIC",
+    "coverage": 500000,
+    "premium": 6596,
+    "waiting_period": "1 month",
+    "exclusions": [
+      "Pre-existing disease for 2 years",
+      "Dental treatment unless due to accident",
+      "Mental illness treatments",
+      "Substance abuse-related conditions"
+    ],
+    "riders": [
+      "Personal Accident Cover",
+      "Cancer Protection Rider"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      },
+      {
+        "clause": "Hospitalization < 24 hours",
+        "reason": "Minimum hospitalization time not met"
+      }
+    ],
+    "detailed_terms": "LIC's Family Floater insurance plan provides tailored protection with a coverage of \u20b9500,000 at an annual premium of \u20b96,596. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Personal Accident Cover, Cancer Protection Rider enhance protection based on individual and family needs. Policy exclusions include Pre-existing disease for 2 years, Dental treatment unless due to accident, Mental illness treatments, Substance abuse-related conditions. Pre-existing diseases are covered after a waiting period of 1 month. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "diabetes": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.66
+        },
+        "high cholesterol": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.12
+        },
+        "hypertension": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.4
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 5936,
+      "26-35": 6596,
+      "36-45": 7915,
+      "46-60": 9894,
+      "60+": 13192
+    },
+    "decline_conditions": [
+      "cancer"
+    ],
+    "rider_costs": {
+      "Personal Accident Cover": 2591,
+      "Cancer Protection Rider": 2545
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P109",
+    "name": "Family_Floater Plan P109",
+    "type": "family_floater",
+    "company": "Star Health",
+    "coverage": 300000,
+    "premium": 12803,
+    "waiting_period": "6 months",
+    "exclusions": [
+      "Cosmetic surgery",
+      "Dental treatment unless due to accident"
+    ],
+    "riders": [
+      "Cancer Protection Rider",
+      "Hospital Cash Benefit",
+      "Personal Accident Cover"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Claim made during waiting period",
+        "reason": "Policy waiting period not completed"
+      },
+      {
+        "clause": "Non-network hospital without prior approval",
+        "reason": "Cashless not available"
+      }
+    ],
+    "detailed_terms": "Star Health's Family Floater insurance plan provides tailored protection with a coverage of \u20b9300,000 at an annual premium of \u20b912,803. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Cancer Protection Rider, Hospital Cash Benefit, Personal Accident Cover enhance protection based on individual and family needs. Policy exclusions include Cosmetic surgery, Dental treatment unless due to accident. Pre-existing diseases are covered after a waiting period of 6 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "cancer": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.89
+        },
+        "hypertension": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.61
+        },
+        "obese": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.59
+        },
+        "smoker": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.73
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": false,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 11523,
+      "26-35": 12803,
+      "36-45": 15364,
+      "46-60": 19204,
+      "60+": 25606
+    },
+    "decline_conditions": [
+      "advanced heart failure",
+      "late-stage kidney disease"
+    ],
+    "rider_costs": {
+      "Cancer Protection Rider": 2110,
+      "Hospital Cash Benefit": 594,
+      "Personal Accident Cover": 1895
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P174",
+    "name": "Senior_Citizen Plan P174",
+    "type": "senior_citizen",
+    "company": "HDFC Life",
+    "coverage": 700000,
+    "premium": 3730,
+    "waiting_period": "3 months",
+    "exclusions": [
+      "War or terrorism injuries",
+      "Mental illness treatments"
+    ],
+    "riders": [
+      "Critical Illness Cover"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Hospitalization < 24 hours",
+        "reason": "Minimum hospitalization time not met"
+      },
+      {
+        "clause": "Non-network hospital without prior approval",
+        "reason": "Cashless not available"
+      }
+    ],
+    "detailed_terms": "HDFC Life's Senior Citizen insurance plan provides tailored protection with a coverage of \u20b9700,000 at an annual premium of \u20b93,730. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Critical Illness Cover enhance protection based on individual and family needs. Policy exclusions include War or terrorism injuries, Mental illness treatments. Pre-existing diseases are covered after a waiting period of 3 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "obese": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 2.18
+        },
+        "smoker": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.17
+        },
+        "hypertension": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.06
+        },
+        "heart disease": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.24
+        },
+        "mental illness": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.36
+        },
+        "asthma": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 2.48
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": false,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 3357,
+      "26-35": 3730,
+      "36-45": 4476,
+      "46-60": 5595,
+      "60+": 7460
+    },
+    "decline_conditions": [
+      "late-stage kidney disease"
+    ],
+    "rider_costs": {
+      "Critical Illness Cover": 1873
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P106",
+    "name": "Senior_Citizen Plan P106",
+    "type": "senior_citizen",
+    "company": "Aditya Birla",
+    "coverage": 500000,
+    "premium": 18000,
+    "waiting_period": "1 month",
+    "exclusions": [
+      "Self-inflicted injuries",
+      "Participation in hazardous sports",
+      "Maternity within first 9 months"
+    ],
+    "riders": [
+      "Accidental Death Benefit"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Hospitalization < 24 hours",
+        "reason": "Minimum hospitalization time not met"
+      },
+      {
+        "clause": "Claim made during waiting period",
+        "reason": "Policy waiting period not completed"
+      }
+    ],
+    "detailed_terms": "Aditya Birla's Senior Citizen insurance plan provides tailored protection with a coverage of \u20b9500,000 at an annual premium of \u20b918,000. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Accidental Death Benefit enhance protection based on individual and family needs. Policy exclusions include Self-inflicted injuries, Participation in hazardous sports, Maternity within first 9 months. Pre-existing diseases are covered after a waiting period of 1 month. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "cancer": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.42
+        },
+        "asthma": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.12
+        },
+        "obese": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 2.42
+        },
+        "smoker": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.65
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": false,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 16200,
+      "26-35": 18000,
+      "36-45": 21600,
+      "46-60": 27000,
+      "60+": 36000
+    },
+    "decline_conditions": [
+      "late-stage kidney disease",
+      "advanced heart failure"
+    ],
+    "rider_costs": {
+      "Accidental Death Benefit": 2502
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P163",
+    "name": "Senior_Citizen Plan P163",
+    "type": "senior_citizen",
+    "company": "LIC",
+    "coverage": 1500000,
+    "premium": 3430,
+    "waiting_period": "6 months",
+    "exclusions": [
+      "Mental illness treatments",
+      "Dental treatment unless due to accident",
+      "Substance abuse-related conditions"
+    ],
+    "riders": [
+      "Personal Accident Cover",
+      "Maternity Cover"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      },
+      {
+        "clause": "Claim made during waiting period",
+        "reason": "Policy waiting period not completed"
+      }
+    ],
+    "detailed_terms": "LIC's Senior Citizen insurance plan provides tailored protection with a coverage of \u20b91,500,000 at an annual premium of \u20b93,430. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Personal Accident Cover, Maternity Cover enhance protection based on individual and family needs. Policy exclusions include Mental illness treatments, Dental treatment unless due to accident, Substance abuse-related conditions. Pre-existing diseases are covered after a waiting period of 6 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "heart disease": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.16
+        },
+        "mental illness": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 2.45
+        },
+        "obese": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.49
+        }
+      },
+      "max_risk_class": "Decline",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 3087,
+      "26-35": 3430,
+      "36-45": 4116,
+      "46-60": 5145,
+      "60+": 6860
+    },
+    "decline_conditions": [
+      "cancer"
+    ],
+    "rider_costs": {
+      "Personal Accident Cover": 1053,
+      "Maternity Cover": 2831
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P161",
+    "name": "Senior_Citizen Plan P161",
+    "type": "senior_citizen",
+    "company": "Tata AIA",
+    "coverage": 700000,
+    "premium": 17800,
+    "waiting_period": "3 months",
+    "exclusions": [
+      "Self-inflicted injuries",
+      "Dental treatment unless due to accident",
+      "War or terrorism injuries",
+      "Participation in hazardous sports"
+    ],
+    "riders": [
+      "Accidental Death Benefit",
+      "Cancer Protection Rider"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Hospitalization < 24 hours",
+        "reason": "Minimum hospitalization time not met"
+      },
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      }
+    ],
+    "detailed_terms": "Tata AIA's Senior Citizen insurance plan provides tailored protection with a coverage of \u20b9700,000 at an annual premium of \u20b917,800. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Accidental Death Benefit, Cancer Protection Rider enhance protection based on individual and family needs. Policy exclusions include Self-inflicted injuries, Dental treatment unless due to accident, War or terrorism injuries, Participation in hazardous sports. Pre-existing diseases are covered after a waiting period of 3 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "diabetes": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 2.2
+        },
+        "high cholesterol": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.48
+        },
+        "cancer": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.25
+        },
+        "smoker": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.17
+        },
+        "asthma": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.66
+        }
+      },
+      "max_risk_class": "Decline",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 16020,
+      "26-35": 17800,
+      "36-45": 21360,
+      "46-60": 26700,
+      "60+": 35600
+    },
+    "decline_conditions": [
+      "cancer"
+    ],
+    "rider_costs": {
+      "Accidental Death Benefit": 1767,
+      "Cancer Protection Rider": 1956
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P134",
+    "name": "Senior_Citizen Plan P134",
+    "type": "senior_citizen",
+    "company": "HDFC Life",
+    "coverage": 1000000,
+    "premium": 4120,
+    "waiting_period": "1 month",
+    "exclusions": [
+      "Self-inflicted injuries",
+      "Participation in hazardous sports"
+    ],
+    "riders": [
+      "Cancer Protection Rider",
+      "Personal Accident Cover",
+      "Critical Illness Cover"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      },
+      {
+        "clause": "Non-network hospital without prior approval",
+        "reason": "Cashless not available"
+      }
+    ],
+    "detailed_terms": "HDFC Life's Senior Citizen insurance plan provides tailored protection with a coverage of \u20b91,000,000 at an annual premium of \u20b94,120. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Cancer Protection Rider, Personal Accident Cover, Critical Illness Cover enhance protection based on individual and family needs. Policy exclusions include Self-inflicted injuries, Participation in hazardous sports. Pre-existing diseases are covered after a waiting period of 1 month. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "cancer": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.35
+        },
+        "smoker": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.93
+        },
+        "hypertension": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.47
+        },
+        "obese": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 2.47
+        },
+        "heart disease": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.38
+        },
+        "asthma": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.25
+        }
+      },
+      "max_risk_class": "Decline",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 3708,
+      "26-35": 4120,
+      "36-45": 4944,
+      "46-60": 6180,
+      "60+": 8240
+    },
+    "decline_conditions": [
+      "cancer",
+      "advanced heart failure"
+    ],
+    "rider_costs": {
+      "Cancer Protection Rider": 1555,
+      "Personal Accident Cover": 2268,
+      "Critical Illness Cover": 2762
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P100",
+    "name": "Senior_Citizen Plan P100",
+    "type": "senior_citizen",
+    "company": "HDFC Life",
+    "coverage": 300000,
+    "premium": 15793,
+    "waiting_period": "1 month",
+    "exclusions": [
+      "Maternity within first 9 months",
+      "Substance abuse-related conditions",
+      "Self-inflicted injuries",
+      "Dental treatment unless due to accident"
+    ],
+    "riders": [
+      "Accidental Death Benefit",
+      "Waiver of Premium",
+      "Hospital Cash Benefit"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      },
+      {
+        "clause": "Hospitalization < 24 hours",
+        "reason": "Minimum hospitalization time not met"
+      }
+    ],
+    "detailed_terms": "HDFC Life's Senior Citizen insurance plan provides tailored protection with a coverage of \u20b9300,000 at an annual premium of \u20b915,793. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Accidental Death Benefit, Waiver of Premium, Hospital Cash Benefit enhance protection based on individual and family needs. Policy exclusions include Maternity within first 9 months, Substance abuse-related conditions, Self-inflicted injuries, Dental treatment unless due to accident. Pre-existing diseases are covered after a waiting period of 1 month. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "hypertension": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.59
+        },
+        "asthma": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.73
+        },
+        "cancer": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.44
+        }
+      },
+      "max_risk_class": "Decline",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": false,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 14214,
+      "26-35": 15793,
+      "36-45": 18952,
+      "46-60": 23690,
+      "60+": 31586
+    },
+    "decline_conditions": [
+      "late-stage kidney disease",
+      "HIV/AIDS"
+    ],
+    "rider_costs": {
+      "Accidental Death Benefit": 2502,
+      "Waiver of Premium": 2256,
+      "Hospital Cash Benefit": 2230
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P110",
+    "name": "Senior_Citizen Plan P110",
+    "type": "senior_citizen",
+    "company": "Aditya Birla",
+    "coverage": 500000,
+    "premium": 10342,
+    "waiting_period": "1 month",
+    "exclusions": [
+      "Self-inflicted injuries",
+      "Participation in hazardous sports",
+      "War or terrorism injuries"
+    ],
+    "riders": [
+      "Critical Illness Cover",
+      "Waiver of Premium",
+      "Maternity Cover"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Claim made during waiting period",
+        "reason": "Policy waiting period not completed"
+      },
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      }
+    ],
+    "detailed_terms": "Aditya Birla's Senior Citizen insurance plan provides tailored protection with a coverage of \u20b9500,000 at an annual premium of \u20b910,342. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Critical Illness Cover, Waiver of Premium, Maternity Cover enhance protection based on individual and family needs. Policy exclusions include Self-inflicted injuries, Participation in hazardous sports, War or terrorism injuries. Pre-existing diseases are covered after a waiting period of 1 month. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "high cholesterol": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.76
+        },
+        "heart disease": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 2.39
+        },
+        "smoker": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.82
+        },
+        "cancer": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.86
+        }
+      },
+      "max_risk_class": "Decline",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": false,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 9308,
+      "26-35": 10342,
+      "36-45": 12410,
+      "46-60": 15513,
+      "60+": 20684
+    },
+    "decline_conditions": [
+      "advanced heart failure"
+    ],
+    "rider_costs": {
+      "Critical Illness Cover": 2686,
+      "Waiver of Premium": 1923,
+      "Maternity Cover": 1317
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P086",
+    "name": "Senior_Citizen Plan P086",
+    "type": "senior_citizen",
+    "company": "Max Bupa",
+    "coverage": 1500000,
+    "premium": 14415,
+    "waiting_period": "1 month",
+    "exclusions": [
+      "Cosmetic surgery",
+      "Self-inflicted injuries",
+      "Dental treatment unless due to accident"
+    ],
+    "riders": [
+      "Personal Accident Cover",
+      "Critical Illness Cover"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Hospitalization < 24 hours",
+        "reason": "Minimum hospitalization time not met"
+      },
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      }
+    ],
+    "detailed_terms": "Max Bupa's Senior Citizen insurance plan provides tailored protection with a coverage of \u20b91,500,000 at an annual premium of \u20b914,415. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Personal Accident Cover, Critical Illness Cover enhance protection based on individual and family needs. Policy exclusions include Cosmetic surgery, Self-inflicted injuries, Dental treatment unless due to accident. Pre-existing diseases are covered after a waiting period of 1 month. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "asthma": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.91
+        },
+        "obese": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.71
+        },
+        "high cholesterol": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.85
+        },
+        "smoker": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.2
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 12974,
+      "26-35": 14415,
+      "36-45": 17298,
+      "46-60": 21622,
+      "60+": 28830
+    },
+    "decline_conditions": [
+      "HIV/AIDS"
+    ],
+    "rider_costs": {
+      "Personal Accident Cover": 2801,
+      "Critical Illness Cover": 1488
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P046",
+    "name": "Senior Citizen Plan 1",
+    "type": "senior_citizen",
+    "company": "Aditya Birla",
+    "coverage": 1500000,
+    "premium": 9000,
+    "waiting_period": "1 month",
+    "exclusions": [
+      "Substance abuse-related conditions",
+      "Maternity within first 9 months",
+      "Cosmetic surgery"
+    ],
+    "riders": [
+      "Maternity Cover",
+      "Accidental Death Benefit"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      },
+      {
+        "clause": "Hospitalization < 24 hours",
+        "reason": "Minimum hospitalization time not met"
+      }
+    ],
+    "detailed_terms": "Aditya Birla's Senior Citizen insurance plan provides tailored protection with a coverage of \u20b91,500,000 at an annual premium of \u20b99,000. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Maternity Cover, Accidental Death Benefit enhance protection based on individual and family needs. Policy exclusions include Substance abuse-related conditions, Maternity within first 9 months, Cosmetic surgery. Pre-existing diseases are covered after a waiting period of 1 month. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "mental illness": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.22
+        },
+        "asthma": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.11
+        },
+        "smoker": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.32
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": false,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 8100,
+      "26-35": 9000,
+      "36-45": 10800,
+      "46-60": 13500,
+      "60+": 18000
+    },
+    "decline_conditions": [
+      "cancer"
+    ],
+    "rider_costs": {
+      "Maternity Cover": 2683,
+      "Accidental Death Benefit": 822
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P107",
+    "name": "Senior_Citizen Plan P107",
+    "type": "senior_citizen",
+    "company": "Aditya Birla",
+    "coverage": 500000,
+    "premium": 9645,
+    "waiting_period": "1 month",
+    "exclusions": [
+      "Dental treatment unless due to accident",
+      "Self-inflicted injuries"
+    ],
+    "riders": [
+      "Personal Accident Cover",
+      "Critical Illness Cover"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      },
+      {
+        "clause": "Non-network hospital without prior approval",
+        "reason": "Cashless not available"
+      }
+    ],
+    "detailed_terms": "Aditya Birla's Senior Citizen insurance plan provides tailored protection with a coverage of \u20b9500,000 at an annual premium of \u20b99,645. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Personal Accident Cover, Critical Illness Cover enhance protection based on individual and family needs. Policy exclusions include Dental treatment unless due to accident, Self-inflicted injuries. Pre-existing diseases are covered after a waiting period of 1 month. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "hypertension": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.85
+        },
+        "asthma": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.92
+        },
+        "obese": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 2.19
+        },
+        "diabetes": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.06
+        },
+        "cancer": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.13
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": false,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 8680,
+      "26-35": 9645,
+      "36-45": 11574,
+      "46-60": 14468,
+      "60+": 19290
+    },
+    "decline_conditions": [
+      "late-stage kidney disease",
+      "HIV/AIDS"
+    ],
+    "rider_costs": {
+      "Personal Accident Cover": 2611,
+      "Critical Illness Cover": 797
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P131",
+    "name": "Senior_Citizen Plan P131",
+    "type": "senior_citizen",
+    "company": "ICICI Prudential",
+    "coverage": 500000,
+    "premium": 9777,
+    "waiting_period": "3 months",
+    "exclusions": [
+      "Mental illness treatments",
+      "Pre-existing disease for 2 years",
+      "Maternity within first 9 months"
+    ],
+    "riders": [
+      "Personal Accident Cover",
+      "Hospital Cash Benefit",
+      "Critical Illness Cover"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      },
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      }
+    ],
+    "detailed_terms": "ICICI Prudential's Senior Citizen insurance plan provides tailored protection with a coverage of \u20b9500,000 at an annual premium of \u20b99,777. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Personal Accident Cover, Hospital Cash Benefit, Critical Illness Cover enhance protection based on individual and family needs. Policy exclusions include Mental illness treatments, Pre-existing disease for 2 years, Maternity within first 9 months. Pre-existing diseases are covered after a waiting period of 3 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "mental illness": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.0
+        },
+        "obese": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 2.32
+        },
+        "diabetes": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.32
+        },
+        "asthma": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.7
+        }
+      },
+      "max_risk_class": "Decline",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 8799,
+      "26-35": 9777,
+      "36-45": 11732,
+      "46-60": 14666,
+      "60+": 19554
+    },
+    "decline_conditions": [
+      "HIV/AIDS",
+      "late-stage kidney disease"
+    ],
+    "rider_costs": {
+      "Personal Accident Cover": 669,
+      "Hospital Cash Benefit": 2079,
+      "Critical Illness Cover": 2403
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P195",
+    "name": "Senior_Citizen Plan P195",
+    "type": "senior_citizen",
+    "company": "LIC",
+    "coverage": 1000000,
+    "premium": 9827,
+    "waiting_period": "3 months",
+    "exclusions": [
+      "War or terrorism injuries",
+      "Participation in hazardous sports"
+    ],
+    "riders": [
+      "Accidental Death Benefit",
+      "Hospital Cash Benefit",
+      "Waiver of Premium"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      },
+      {
+        "clause": "Non-network hospital without prior approval",
+        "reason": "Cashless not available"
+      }
+    ],
+    "detailed_terms": "LIC's Senior Citizen insurance plan provides tailored protection with a coverage of \u20b91,000,000 at an annual premium of \u20b99,827. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Accidental Death Benefit, Hospital Cash Benefit, Waiver of Premium enhance protection based on individual and family needs. Policy exclusions include War or terrorism injuries, Participation in hazardous sports. Pre-existing diseases are covered after a waiting period of 3 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "cancer": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.42
+        },
+        "smoker": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.05
+        },
+        "high cholesterol": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.99
+        },
+        "asthma": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.87
+        },
+        "mental illness": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.52
+        }
+      },
+      "max_risk_class": "Decline",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": false,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 8844,
+      "26-35": 9827,
+      "36-45": 11792,
+      "46-60": 14740,
+      "60+": 19654
+    },
+    "decline_conditions": [
+      "cancer"
+    ],
+    "rider_costs": {
+      "Accidental Death Benefit": 2945,
+      "Hospital Cash Benefit": 1172,
+      "Waiver of Premium": 2496
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P075",
+    "name": "Senior_Citizen Plan P075",
+    "type": "senior_citizen",
+    "company": "Tata AIA",
+    "coverage": 500000,
+    "premium": 3956,
+    "waiting_period": "6 months",
+    "exclusions": [
+      "Participation in hazardous sports",
+      "Dental treatment unless due to accident",
+      "Substance abuse-related conditions"
+    ],
+    "riders": [
+      "Maternity Cover",
+      "Critical Illness Cover",
+      "Cancer Protection Rider"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      },
+      {
+        "clause": "Claim made during waiting period",
+        "reason": "Policy waiting period not completed"
+      }
+    ],
+    "detailed_terms": "Tata AIA's Senior Citizen insurance plan provides tailored protection with a coverage of \u20b9500,000 at an annual premium of \u20b93,956. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Maternity Cover, Critical Illness Cover, Cancer Protection Rider enhance protection based on individual and family needs. Policy exclusions include Participation in hazardous sports, Dental treatment unless due to accident, Substance abuse-related conditions. Pre-existing diseases are covered after a waiting period of 6 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "asthma": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.69
+        },
+        "heart disease": {
+          "risk_class": "Standard",
+          "premium_multiplier": 2.15
+        },
+        "smoker": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 2.18
+        }
+      },
+      "max_risk_class": "Decline",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 3560,
+      "26-35": 3956,
+      "36-45": 4747,
+      "46-60": 5934,
+      "60+": 7912
+    },
+    "decline_conditions": [
+      "late-stage kidney disease"
+    ],
+    "rider_costs": {
+      "Maternity Cover": 1588,
+      "Critical Illness Cover": 2631,
+      "Cancer Protection Rider": 2035
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P052",
+    "name": "Senior Citizen Plan 7",
+    "type": "senior_citizen",
+    "company": "Religare",
+    "coverage": 1000000,
+    "premium": 11000,
+    "waiting_period": "3 months",
+    "exclusions": [
+      "Participation in hazardous sports",
+      "Cosmetic surgery",
+      "Self-inflicted injuries"
+    ],
+    "riders": [
+      "Hospital Cash Benefit",
+      "Personal Accident Cover"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "False declaration in proposal form",
+        "reason": "Misrepresentation of health condition"
+      },
+      {
+        "clause": "Non-network hospital without prior approval",
+        "reason": "Cashless not available"
+      }
+    ],
+    "detailed_terms": "Religare's Senior Citizen insurance plan provides tailored protection with a coverage of \u20b91,000,000 at an annual premium of \u20b911,000. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Hospital Cash Benefit, Personal Accident Cover enhance protection based on individual and family needs. Policy exclusions include Participation in hazardous sports, Cosmetic surgery, Self-inflicted injuries. Pre-existing diseases are covered after a waiting period of 3 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Preferred",
+      "risk_modifiers": {
+        "mental illness": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.14
+        },
+        "smoker": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.23
+        },
+        "diabetes": {
+          "risk_class": "Standard",
+          "premium_multiplier": 1.57
+        }
+      },
+      "max_risk_class": "Decline",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": true,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 9900,
+      "26-35": 11000,
+      "36-45": 13200,
+      "46-60": 16500,
+      "60+": 22000
+    },
+    "decline_conditions": [
+      "late-stage kidney disease"
+    ],
+    "rider_costs": {
+      "Hospital Cash Benefit": 1637,
+      "Personal Accident Cover": 2626
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  },
+  {
+    "id": "P150",
+    "name": "Senior_Citizen Plan P150",
+    "type": "senior_citizen",
+    "company": "LIC",
+    "coverage": 300000,
+    "premium": 5087,
+    "waiting_period": "3 months",
+    "exclusions": [
+      "War or terrorism injuries",
+      "Maternity within first 9 months",
+      "Dental treatment unless due to accident"
+    ],
+    "riders": [
+      "Personal Accident Cover"
+    ],
+    "claim_rejection_clauses": [
+      {
+        "clause": "Pre-existing condition within exclusion window",
+        "reason": "Waiting period not completed for pre-existing conditions"
+      },
+      {
+        "clause": "Claim made during waiting period",
+        "reason": "Policy waiting period not completed"
+      }
+    ],
+    "detailed_terms": "LIC's Senior Citizen insurance plan provides tailored protection with a coverage of \u20b9300,000 at an annual premium of \u20b95,087. This plan offers extensive coverage including hospitalization expenses, pre- and post-hospitalization benefits, and access to cashless treatments across a wide hospital network. Optional riders such as Personal Accident Cover enhance protection based on individual and family needs. Policy exclusions include War or terrorism injuries, Maternity within first 9 months, Dental treatment unless due to accident. Pre-existing diseases are covered after a waiting period of 3 months. Policyholders are eligible for annual health checkups, tax benefits under Section 80D, and lifelong renewability. Claims may be rejected for issues like misrepresentation, claims within the waiting period, or treatment in non-network hospitals without approval.",
+    "underwriting_profile": {
+      "base_risk_class": "Standard",
+      "risk_modifiers": {
+        "mental illness": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.35
+        },
+        "smoker": {
+          "risk_class": "High Risk",
+          "premium_multiplier": 1.49
+        },
+        "hypertension": {
+          "risk_class": "Substandard",
+          "premium_multiplier": 1.19
+        }
+      },
+      "max_risk_class": "High Risk",
+      "notes": "Risk assessment includes lifestyle and medical history. Lab reports required for high-risk applicants."
+    },
+    "medical_underwriting_required": false,
+    "premium_calculation_method": "base \u00d7 risk_multiplier \u00d7 rider_costs + age_factor",
+    "age_band_pricing": {
+      "18-25": 4578,
+      "26-35": 5087,
+      "36-45": 6104,
+      "46-60": 7630,
+      "60+": 10174
+    },
+    "decline_conditions": [
+      "HIV/AIDS",
+      "cancer"
+    ],
+    "rider_costs": {
+      "Personal Accident Cover": 1901
+    },
+    "gender_specific_exclusions": {
+      "female": [
+        "Maternity within first 9 months"
+      ],
+      "male": []
+    }
+  }
+]
